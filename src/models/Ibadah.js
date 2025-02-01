@@ -43,3 +43,5 @@ const ibadahSchema = new mongoose.Schema({
 });
 
 const Ibadah = mongoose.model("Ibadah", ibadahSchema);
+
+module.exports = Ibadah;

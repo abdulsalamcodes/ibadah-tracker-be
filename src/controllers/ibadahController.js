@@ -20,6 +20,7 @@ class IbadahController {
   static async getAll(req, res) {
     try {
       const ibadahs = await IbadahService.getUserIbadah(req.user._id);
+      console.log("ibadahs", ibadahs);
       return ResponseService.success(res, ibadahs);
     } catch (error) {
       return ResponseService.error(res, error.message);

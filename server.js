@@ -17,6 +17,7 @@ connectDB();
 app.use("/api/auth", require("./src/routes/authRoutes"));
 app.use("/api/ibadah", require("./src/routes/ibadahRoutes"));
 app.use("/api/settings", require("./src/routes/settingsRoutes"));
+app.use("/api/progress", require("./src/routes/progressRoutes"));
 
 // Error handling middleware
 app.use((err, req, res, next) => {
