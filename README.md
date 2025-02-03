@@ -22,7 +22,7 @@ Node.js/Express backend for the Ibadah Tracker application with MongoDB integrat
 
 1. Clone repository:
 ```bash
-git clone https://github.com/yourusername/ibadah-tracker-be.git
+git clone https://github.com/abdulsalamcodes/ibadah-tracker-be.git
 cd ibadah-tracker-be
 ```
 
